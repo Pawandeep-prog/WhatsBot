@@ -24,7 +24,7 @@ for i in range(1, len(chat_inter)):
 questions=[]
 answers=[]
 for i in chat_combined:
-    answers.append(i.split(":")[-1]) if i.split(":")[0]==" Pawandeep" else questions.append(i.split(":")[-1])
+    answers.append(i.split(":")[-1]) if i.split(":")[0]==" CHANGE_YOUR_NAME_HERE" else questions.append(i.split(":")[-1])
 
 for idx in range(len(questions)):
     questions[idx] = questions[idx].lower()[1:]

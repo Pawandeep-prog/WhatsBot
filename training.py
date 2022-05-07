@@ -18,7 +18,7 @@ class InferCallback(Callback):
 
             model.save("model.h5")
 
-            queries = ["hi","thanks","how are you","hello","kal jana hai", "hor ki krde", "chlo vadia", "kal class hogi", "college jana hai"]
+            queries = ["ADD","CHATS","YOU","WANT", "TO", "TEST"]
 
             for query in queries:
                 print(query, ":  ")

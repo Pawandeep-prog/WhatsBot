@@ -2,7 +2,9 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
 import numpy as np
 import pickle
+import initialclean
 
+initialclean.clean()
 data = np.array(open("chat.txt").read().split('\n'))
 
 LENGTH=8
